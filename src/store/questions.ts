@@ -28,7 +28,7 @@ export const useQuestionsStore = create<State>()(persist((set, get) => {
 			set({ difficulty: index, questionsLimit: limitDictionary[index] })
 		},
 		fetchQuestions: async () => {
-			fetch('http://localhost:5173/questions.json')
+			fetch('https://js-quiz-seven.vercel.app/questions.json')
 			.then(res => res.json())
 			.then(json => {
 				const { questionsLimit } = get()
