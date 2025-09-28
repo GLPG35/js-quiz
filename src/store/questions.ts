@@ -8,12 +8,14 @@ interface State {
 	currentQuestion: number,
 	difficulty: number,
 	questionsLimit: number,
+	language: 'en'|'es',
 	setDifficulty: (index: number) => void,
 	fetchQuestions: () => Promise<void>,
 	selectAnswer: (questionId: number, answerIndex: number) => void,
 	nextQuestion: () => void,
 	prevQuestion: () => void,
-	reset: () => void
+	reset: () => void,
+	setLanguage: (language: 'en'|'es') => void
 }
 
 export const useQuestionsStore = create<State>()(persist((set, get) => {
@@ -22,6 +24,7 @@ export const useQuestionsStore = create<State>()(persist((set, get) => {
 		currentQuestion: 0,
 		difficulty: 1,
 		questionsLimit: 10,
+		language: 'en',
 		setDifficulty: (index: number) => {
 			const limitDictionary = [5, 10, 25, 50]
 			
@@ -75,6 +78,9 @@ export const useQuestionsStore = create<State>()(persist((set, get) => {
 		},
 		reset: () => {
 			set({ currentQuestion: 0, questions: [] })
+		},
+		setLanguage: (language) => {
+			set({ language })
 		}
 	}
 }, { name: 'questions' }))

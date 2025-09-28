@@ -1,1047 +1,2202 @@
 [
-	{
-		"id": 1,
-		"question": "What is the result of the expression 2 + '2'?",
-		"answers": ["22", "4", "NaN", "Error"],
-		"correctAnswer": 0
-	},
-	{
-		"id": 2,
-		"question": "Which keyword is used to declare a constant in JavaScript?",
-		"answers": ["var", "let", "const", "variable"],
-		"correctAnswer": 2
-	},
-	{
-		"id": 3,
-		"question": "What will the following code output: console.log(3 == '3');",
-		"answers": ["true", "false", "TypeError", "undefined"],
-		"correctAnswer": 0
-	},
-	{
-		"id": 4,
-		"question": "Which array method is used to add new elements to the end of an array?",
-		"answers": ["push()", "pop()", "shift()", "unshift()"],
-		"correctAnswer": 0
-	},
-	{
-		"id": 5,
-		"question": "What is the purpose of the 'this' keyword in JavaScript?",
-		"answers": [
-		  "It refers to the current function's scope",
-		  "It refers to the global object",
-		  "It refers to the parent function's scope",
-		  "It refers to the current object's context"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 6,
-		"question": "What does the 'let' keyword do?",
-		"answers": [
-		  "Declares a variable with block scope",
-		  "Declares a variable with function scope",
-		  "Declares a global variable",
-		  "Declares a constant variable"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 7,
-		"question": "Which event occurs when an HTML element is clicked?",
-		"answers": ["click", "mouseover", "keydown", "change"],
-		"correctAnswer": 0
-	},
-	{
-		"id": 8,
-		"question": "What is the purpose of the 'addEventListener' method in JavaScript?",
-		"answers": [
-		  "It adds a new property to an object",
-		  "It creates a new event",
-		  "It attaches an event handler to an element",
-		  "It creates a new function"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 9,
-		"question": "Which operator is used to combine multiple strings in JavaScript?",
-		"answers": ["+", "&", "*", "/"],
-		"correctAnswer": 0
-	},
-	{
-		"id": 10,
-		"question": "What does the 'async' keyword do when used before a function?",
-		"answers": [
-		  "It declares the function as asynchronous",
-		  "It declares the function as a generator",
-		  "It declares the function as a promise",
-		  "It declares the function as a callback"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 11,
-		"question": "Which built-in object can be used to schedule a function to run repeatedly at a specified interval?",
-		"answers": ["setTimeout", "setInterval", "requestAnimationFrame", "Promise"],
-		"correctAnswer": 1
-	},
-	{
-		"id": 12,
-		"question": "What is the purpose of the 'localStorage' object in JavaScript?",
-		"answers": [
-		  "To store data that persists across browser sessions",
-		  "To store data that is only accessible within a single session",
-		  "To store data that is encrypted",
-		  "To store data that is accessible by other websites"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 13,
-		"question": "What is the difference between 'null' and 'undefined' in JavaScript?",
-		"answers": [
-		  "'null' is assigned by the developer, while 'undefined' is assigned by the JavaScript engine",
-		  "'null' represents the absence of a value, while 'undefined' indicates a variable that has been declared but has no assigned value",
-		  "'null' is a primitive data type, while 'undefined' is an object",
-		  "'null' is used for error handling, while 'undefined' is used for flow control"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 14,
-		"question": "What does the spread operator (...) do in JavaScript?",
-		"answers": [
-		  "It combines two arrays into one",
-		  "It destructures an object into separate variables",
-		  "It creates a shallow copy of an array or object",
-		  "It merges two objects into one"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 15,
-		"question": "What is the difference between '==' and '===' in JavaScript?",
-		"answers": [
-		  "'==' performs type coercion, while '===' performs strict equality comparison",
-		  "'==' performs strict equality comparison, while '===' performs type coercion",
-		  "'==' is used for comparing values, while '===' is used for comparing references",
-		  "'==' and '===' are interchangeable and produce the same results"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 16,
-		"question": "What is an immediately invoked function expression (IIFE) in JavaScript?",
-		"answers": [
-		  "A function that runs as soon as it is defined",
-		  "A function that can only be invoked once",
-		  "A function that is invoked with a delay",
-		  "A function that is defined within another function"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 17,
-		"question": "Which array method is used to remove the first element from an array?",
-		"answers": ["shift()", "pop()", "splice()", "slice()"],
-		"correctAnswer": 0
-	},
-	{
-		"id": 18,
-		"question": "What is the purpose of the 'try...catch' statement in JavaScript?",
-		"answers": [
-		  "It defines a new variable within a block",
-		  "It helps to organize code into smaller functions",
-		  "It handles errors and exceptions in code",
-		  "It is used to iterate over arrays and objects"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 19,
-		"question": "Which method is used to remove the last element from an array and return that element?",
-		"answers": ["shift()", "unshift()", "pop()", "push()"],
-		"correctAnswer": 2
-	},
-	{
-		"id": 20,
-		"question": "What is the purpose of the 'fetch' API in JavaScript?",
-		"answers": [
-		  "To manipulate the Document Object Model (DOM)",
-		  "To handle asynchronous operations and promises",
-		  "To perform mathematical calculations",
-		  "To handle form submissions"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 21,
-		"question": "What is a closure in JavaScript?",
-		"answers": [
-		  "A data structure for storing key-value pairs",
-		  "A built-in function in JavaScript",
-		  "A way to declare global variables",
-		  "A function that has access to its outer function's variables"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 22,
-		"question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
-		"answers": [
-		  "To create a new object",
-		  "To retrieve an array of an object's property names",
-		  "To retrieve an array of an object's property values",
-		  "To retrieve an array of an object's methods"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 23,
-		"question": "What does the 'typeof' operator in JavaScript return?",
-		"answers": [
-		  "The data type of a value",
-		  "The length of an array",
-		  "The value of an object's property",
-		  "The name of a function"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 24,
-		"question": "What is the purpose of the 'Promise' object in JavaScript?",
-		"answers": [
-		  "To create asynchronous functions",
-		  "To handle events in the browser",
-		  "To iterate over arrays",
-		  "To validate user input"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 25,
-		"question": "What is the difference between 'let' and 'const' in JavaScript?",
-		"answers": [
-		  "'let' is used for constant values, while 'const' is used for variables that can change",
-		  "'let' can be redeclared, while 'const' cannot be redeclared",
-		  "'let' has block scope, while 'const' has function scope",
-		  "'let' variables are hoisted, while 'const' variables are not"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 26,
-		"question": "What is the purpose of the 'template literals' in JavaScript?",
-		"answers": [
-		  "To create multi-line comments",
-		  "To define variables with dynamic values",
-		  "To write regular expressions",
-		  "To create strings with embedded expressions"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 27,
-		"question": "What is the purpose of the 'arrow functions' in JavaScript?",
-		"answers": [
-		  "To declare new objects",
-		  "To create anonymous functions",
-		  "To define conditional statements",
-		  "To provide shortcuts for creating function expressions"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 28,
-		"question": "Which method is used to remove elements from an array based on a condition?",
-		"answers": ["filter()", "find()", "map()", "reduce()"],
-		"correctAnswer": 0
-	},
-	{
-		"id": 29,
-		"question": "What does the 'Object.create()' method do in JavaScript?",
-		"answers": [
-		  "It creates a new object and copies properties from an existing object",
-		  "It creates a new object with the specified prototype object",
-		  "It creates a copy of an array",
-		  "It creates a new object and assigns properties using a factory function"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 30,
-		"question": "What is the purpose of the 'map' function in JavaScript?",
-		"answers": [
-		  "To create a new array by applying a function to each element",
-		  "To filter elements in an array based on a condition",
-		  "To remove elements from an array",
-		  "To sort the elements of an array"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 31,
-		"question": "What is the concept of 'hoisting' in JavaScript?",
-		"answers": [
-		  "It refers to the process of lifting heavy objects in code",
-		  "It refers to the ability of functions to access variables from their outer scope",
-		  "It refers to the behavior of moving all code to the top of the file",
-		  "It refers to the behavior of variables being declared before they are used"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 32,
-		"question": "What is the purpose of the 'Symbol' data type in JavaScript?",
-		"answers": [
-		  "To create complex data structures",
-		  "To store multiple values in a single variable",
-		  "To represent unique values and prevent naming conflicts",
-		  "To manipulate strings and text"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 33,
-		"question": "What is the purpose of the 'async/await' syntax in JavaScript?",
-		"answers": [
-		  "To define callbacks in asynchronous code",
-		  "To declare variables with asynchronous values",
-		  "To handle exceptions in try-catch blocks",
-		  "To simplify asynchronous code by making it look more like synchronous code"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 34,
-		"question": "Which array method is used to join all elements of an array into a string?",
-		"answers": ["join()", "concat()", "push()", "split()"],
-		"correctAnswer": 0
-	},
-	{
-		"id": 35,
-		"question": "What is the purpose of the 'Symbol.iterator' in JavaScript?",
-		"answers": [
-		  "To access the prototype of an object",
-		  "To iterate over the properties of an object",
-		  "To convert an object to a string",
-		  "To define a default iterator for an object"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 36,
-		"question": "What is the purpose of the 'destructuring assignment' in JavaScript?",
-		"answers": [
-		  "To assign a value to multiple variables",
-		  "To declare variables using the 'let' keyword",
-		  "To create new objects from existing objects",
-		  "To execute multiple statements in a single line"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 37,
-		"question": "What is the difference between 'localStorage' and 'sessionStorage' in JavaScript?",
-		"answers": [
-		  "'localStorage' stores data that persists across sessions, while 'sessionStorage' stores data that is cleared when the browser session ends",
-		  "'localStorage' is more secure than 'sessionStorage'",
-		  "'localStorage' can only store strings, while 'sessionStorage' can store various data types",
-		  "'localStorage' and 'sessionStorage' are two names for the same storage mechanism"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 38,
-		"question": "What is the purpose of the 'ES6 Modules' in JavaScript?",
-		"answers": [
-		  "To create self-contained code modules",
-		  "To provide compatibility with older browsers",
-		  "To improve performance of code execution",
-		  "To create interactive user interfaces"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 39,
-		"question": "What does the 'Map' object in JavaScript store?",
-		"answers": [
-		  "Key-value pairs where keys are unique",
-		  "Arrays of values",
-		  "Single values of different data types",
-		  "Functions and methods"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 40,
-		"question": "What is the purpose of the 'Object.freeze()' method in JavaScript?",
-		"answers": [
-		  "To stop a function from executing",
-		  "To prevent a function from being called",
-		  "To freeze the execution of code",
-		  "To make an object's properties non-writable and non-configurable"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 41,
-		"question": "What is the 'prototype' property in JavaScript used for?",
-		"answers": [
-		  "To define the constructor of an object",
-		  "To set the inheritance of an object",
-		  "To define the methods and properties of an object",
-		  "To link objects to their parent objects"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 42,
-		"question": "What is the purpose of the 'Array.isArray()' method in JavaScript?",
-		"answers": [
-		  "To check if a variable is an array",
-		  "To convert an object to an array",
-		  "To remove the last element from an array",
-		  "To sort the elements of an array"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 43,
-		"question": "What is the concept of 'currying' in JavaScript?",
-		"answers": [
-		  "It refers to the process of chaining multiple array methods",
-		  "It refers to the process of converting a function with multiple arguments into a series of functions that take one argument",
-		  "It refers to the process of combining multiple objects into one",
-		  "It refers to the process of asynchronous programming using promises"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 44,
-		"question": "What does the 'localStorage.setItem()' method do?",
-		"answers": [
-		  "It retrieves an item from the local storage",
-		  "It stores an item in the local storage",
-		  "It removes an item from the local storage",
-		  "It clears all items from the local storage"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 45,
-		"question": "What is the purpose of the 'WeakMap' object in JavaScript?",
-		"answers": [
-		  "To store key-value pairs where keys are weakly referenced",
-		  "To store data in a way that it cannot be accessed later",
-		  "To store data that is strongly referenced",
-		  "To store data in an encrypted format"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 46,
-		"question": "What is the difference between 'window' and 'document' objects in JavaScript?",
-		"answers": [
-		  "'window' refers to the current browser window, while 'document' refers to the HTML content of the current page",
-		  "'window' refers to the HTML content of the current page, while 'document' refers to the current browser window",
-		  "'window' and 'document' are two names for the same object",
-		  "'window' and 'document' both refer to the global object"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 47,
-		"question": "What is the purpose of the 'Symbol.toPrimitive' method in JavaScript?",
-		"answers": [
-		  "To convert a value to a string",
-		  "To convert a value to a number",
-		  "To customize the conversion of a value to a primitive type",
-		  "To compare two values for equality"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 48,
-		"question": "What is the purpose of the 'Symbol.iterator' method in JavaScript?",
-		"answers": [
-		  "To access an object's prototype",
-		  "To convert an object to a string",
-		  "To create an iterable object that can be used in a 'for...of' loop",
-		  "To define a default value for an object"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 49,
-		"question": "What does the 'NaN' value represent in JavaScript?",
-		"answers": [
-		  "The value of infinity",
-		  "An error value indicating an invalid number",
-		  "The absence of a value",
-		  "A placeholder for an undefined variable"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 50,
-		"question": "What is the purpose of the 'Promise.all()' method in JavaScript?",
-		"answers": [
-		  "To create a new promise",
-		  "To handle errors in asynchronous code",
-		  "To combine multiple promises into a single promise",
-		  "To convert promises into regular functions"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 51,
-		"question": "What is the purpose of the 'Promise.race()' method in JavaScript?",
-		"answers": [
-		  "To race multiple promises and resolve the first one that completes",
-		  "To race multiple promises and resolve the last one that completes",
-		  "To race multiple promises and reject the first one that completes",
-		  "To race multiple promises and reject the last one that completes"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 52,
-		"question": "What is the purpose of the 'Object.assign()' method in JavaScript?",
-		"answers": [
-		  "To create a new object with assigned properties",
-		  "To assign values to multiple variables",
-		  "To define a constructor for an object",
-		  "To assign properties from one object to another"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 53,
-		"question": "What does the 'startsWith()' method in JavaScript do?",
-		"answers": [
-		  "It checks if a string ends with a specified substring",
-		  "It checks if a string starts with a specified substring",
-		  "It checks if a string contains a specified substring",
-		  "It checks if a string is the same as a specified substring"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 54,
-		"question": "What is the purpose of the 'Array.from()' method in JavaScript?",
-		"answers": [
-		  "To create a new array from an existing array",
-		  "To convert an array to a string",
-		  "To reverse the order of elements in an array",
-		  "To sort the elements of an array"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 55,
-		"question": "What is the concept of 'memoization' in JavaScript?",
-		"answers": [
-		  "It refers to the process of storing data in the browser's memory",
-		  "It refers to the process of optimizing network requests",
-		  "It refers to the process of caching the results of expensive function calls for later use",
-		  "It refers to the process of minifying code for better performance"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 56,
-		"question": "What is the purpose of the 'Array.prototype.reduce()' method in JavaScript?",
-		"answers": [
-		  "To filter elements in an array",
-		  "To add new elements to an array",
-		  "To combine all elements of an array into a single value",
-		  "To sort the elements of an array"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 57,
-		"question": "What is the purpose of the 'encodeURIComponent()' function in JavaScript?",
-		"answers": [
-		  "To decode a URI component",
-		  "To encode a URI component for use in a URL",
-		  "To validate a URL",
-		  "To check if a URL is accessible"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 58,
-		"question": "What does the 'bind()' method do in JavaScript?",
-		"answers": [
-		  "It creates a new array by applying a function to each element",
-		  "It binds a function to a specific context, creating a new function",
-		  "It filters elements in an array based on a condition",
-		  "It sorts the elements of an array"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 59,
-		"question": "What is the purpose of the 'Web Workers' API in JavaScript?",
-		"answers": [
-		  "To create responsive user interfaces",
-		  "To manipulate the Document Object Model (DOM)",
-		  "To perform multi-threading in web applications",
-		  "To handle asynchronous operations and promises"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 60,
-		"question": "What is the purpose of the 'Array.prototype.some()' method in JavaScript?",
-		"answers": [
-		  "To check if all elements of an array meet a condition",
-		  "To check if at least one element of an array meets a condition",
-		  "To combine all elements of an array into a single value",
-		  "To sort the elements of an array"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 61,
-		"question": "What is the purpose of the 'encodeURIComponent()' function in JavaScript?",
-		"answers": [
-		  "To decode a URI component",
-		  "To encode a URI component for use in a URL",
-		  "To validate a URL",
-		  "To check if a URL is accessible"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 62,
-		"question": "What is the difference between 'call()' and 'apply()' methods in JavaScript?",
-		"answers": [
-		  "'call()' is used to invoke a function and pass arguments individually, while 'apply()' is used to invoke a function and pass arguments as an array",
-		  "'call()' is used to bind a function to a specific context, while 'apply()' is used to create a new function",
-		  "'call()' and 'apply()' are interchangeable and produce the same results",
-		  "'call()' and 'apply()' are not valid methods in JavaScript"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 63,
-		"question": "What is the purpose of the 'Array.prototype.every()' method in JavaScript?",
-		"answers": [
-		  "To check if all elements of an array meet a condition",
-		  "To check if at least one element of an array meets a condition",
-		  "To combine all elements of an array into a single value",
-		  "To sort the elements of an array"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 64,
-		"question": "What is the purpose of the 'Date' object in JavaScript?",
-		"answers": [
-		  "To perform mathematical calculations",
-		  "To store and manipulate date and time information",
-		  "To create a new function",
-		  "To create regular expressions"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 65,
-		"question": "What is the purpose of the 'Set' object in JavaScript?",
-		"answers": [
-		  "To store key-value pairs where keys are unique",
-		  "To store multiple values in a single variable",
-		  "To store data that persists across sessions",
-		  "To store unique values of any type, whether primitive values or object references"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 66,
-		"question": "What is the purpose of the 'Array.prototype.find()' method in JavaScript?",
-		"answers": [
-		  "To check if all elements of an array meet a condition",
-		  "To check if at least one element of an array meets a condition",
-		  "To find the index of a specific element in an array",
-		  "To find the first element in an array that meets a condition"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 67,
-		"question": "What is the difference between 'event.preventDefault()' and 'event.stopPropagation()' in JavaScript?",
-		"answers": [
-		  "'event.preventDefault()' prevents the default behavior of an event, while 'event.stopPropagation()' stops the event from propagating to parent elements",
-		  "'event.preventDefault()' stops the event from propagating to parent elements, while 'event.stopPropagation()' prevents the default behavior of an event",
-		  "'event.preventDefault()' and 'event.stopPropagation()' are the same and can be used interchangeably",
-		  "'event.preventDefault()' and 'event.stopPropagation()' both prevent the event from occurring"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 68,
-		"question": "What is the purpose of the 'Math' object in JavaScript?",
-		"answers": [
-		  "To manipulate the Document Object Model (DOM)",
-		  "To handle asynchronous operations and promises",
-		  "To perform mathematical operations and calculations",
-		  "To store data that persists across sessions"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 69,
-		"question": "What is the purpose of the 'Array.prototype.findIndex()' method in JavaScript?",
-		"answers": [
-		  "To check if all elements of an array meet a condition",
-		  "To check if at least one element of an array meets a condition",
-		  "To find the index of a specific element in an array",
-		  "To find the first element in an array that meets a condition"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 70,
-		"question": "What is the purpose of the 'localStorage.removeItem()' method in JavaScript?",
-		"answers": [
-		  "To retrieve an item from the local storage",
-		  "To store an item in the local storage",
-		  "To remove an item from the local storage",
-		  "To clear all items from the local storage"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 71,
-		"question": "What is the purpose of the 'fetch' API in JavaScript?",
-		"answers": [
-		  "To manipulate the Document Object Model (DOM)",
-		  "To handle asynchronous operations and promises",
-		  "To perform mathematical calculations",
-		  "To handle form submissions"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 72,
-		"question": "What is the purpose of the 'Array.prototype.flat()' method in JavaScript?",
-		"answers": [
-		  "To check if all elements of an array meet a condition",
-		  "To flatten a nested array by concatenating sub-arrays",
-		  "To find the index of a specific element in an array",
-		  "To sort the elements of an array"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 73,
-		"question": "What is the purpose of the 'setTimeout()' function in JavaScript?",
-		"answers": [
-		  "To execute a function repeatedly at a specific interval",
-		  "To delay the execution of a function by a specified time",
-		  "To define the prototype of an object",
-		  "To handle asynchronous operations and promises"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 74,
-		"question": "What is the purpose of the 'RegExp' object in JavaScript?",
-		"answers": [
-		  "To store multiple values in a single variable",
-		  "To perform mathematical calculations",
-		  "To handle asynchronous operations and promises",
-		  "To represent regular expressions and pattern matching"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 75,
-		"question": "What is the purpose of the 'Array.prototype.includes()' method in JavaScript?",
-		"answers": [
-		  "To check if all elements of an array meet a condition",
-		  "To check if at least one element of an array meets a condition",
-		  "To check if an array contains a specific element",
-		  "To sort the elements of an array"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 76,
-		"question": "What is the purpose of the 'Object.entries()' method in JavaScript?",
-		"answers": [
-		  "To retrieve an array of an object's property names",
-		  "To retrieve an array of an object's property values",
-		  "To retrieve an array of an object's methods",
-		  "To retrieve an array of an object's key-value pairs"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 77,
-		"question": "What is the purpose of the 'isNaN()' function in JavaScript?",
-		"answers": [
-		  "To check if a value is a number",
-		  "To convert a value to a number",
-		  "To create a new number",
-		  "To manipulate a number's properties"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 78,
-		"question": "What is the purpose of the 'Array.prototype.splice()' method in JavaScript?",
-		"answers": [
-		  "To add new elements to an array",
-		  "To remove elements from an array and optionally replace them with new elements",
-		  "To check if all elements of an array meet a condition",
-		  "To sort the elements of an array"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 79,
-		"question": "What is the purpose of the 'parseInt()' function in JavaScript?",
-		"answers": [
-		  "To convert a value to an integer",
-		  "To convert a value to a floating-point number",
-		  "To check if a value is a number",
-		  "To retrieve an array of an object's property names"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 80,
-		"question": "What is the purpose of the 'JSON.parse()' method in JavaScript?",
-		"answers": [
-		  "To convert a JavaScript object to a JSON string",
-		  "To convert a JSON string to a JavaScript object",
-		  "To parse a URL",
-		  "To perform asynchronous operations"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 81,
-		"question": "What is the purpose of the 'Array.from()' method in JavaScript?",
-		"answers": [
-		  "To create a new array from an existing array",
-		  "To convert an array to a string",
-		  "To reverse the order of elements in an array",
-		  "To sort the elements of an array"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 82,
-		"question": "What is the purpose of the 'String.prototype.trim()' method in JavaScript?",
-		"answers": [
-		  "To remove all spaces from a string",
-		  "To add spaces to the beginning and end of a string",
-		  "To convert a string to uppercase",
-		  "To remove spaces from the beginning and end of a string"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 83,
-		"question": "What is the purpose of the 'Array.prototype.forEach()' method in JavaScript?",
-		"answers": [
-		  "To check if all elements of an array meet a condition",
-		  "To execute a function for each element of an array",
-		  "To combine all elements of an array into a single value",
-		  "To sort the elements of an array"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 84,
-		"question": "What is the purpose of the 'Array.prototype.filter()' method in JavaScript?",
-		"answers": [
-		  "To add new elements to an array",
-		  "To remove elements from an array",
-		  "To check if all elements of an array meet a condition",
-		  "To create a new array with elements that meet a condition"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 85,
-		"question": "What is the purpose of the 'Array.prototype.map()' method in JavaScript?",
-		"answers": [
-		  "To add new elements to an array",
-		  "To filter elements in an array",
-		  "To check if all elements of an array meet a condition",
-		  "To create a new array by applying a function to each element"
-		],
-		"correctAnswer": 3
-	},
-	{
-		"id": 86,
-		"question": "What is the purpose of the 'String.prototype.split()' method in JavaScript?",
-		"answers": [
-		  "To combine two strings into one",
-		  "To split a string into an array of substrings based on a delimiter",
-		  "To replace characters in a string with other characters",
-		  "To convert a string to lowercase"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 87,
-		"question": "What is the purpose of the 'String.prototype.indexOf()' method in JavaScript?",
-		"answers": [
-		  "To check if a string contains another string",
-		  "To retrieve the index of the first occurrence of a substring in a string",
-		  "To replace characters in a string with other characters",
-		  "To convert a string to uppercase"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 88,
-		"question": "What is the purpose of the 'Array.prototype.reduceRight()' method in JavaScript?",
-		"answers": [
-		  "To create a new array by applying a function to each element",
-		  "To combine all elements of an array into a single value",
-		  "To reverse the order of elements in an array",
-		  "To check if all elements of an array meet a condition"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 89,
-		"question": "What is the purpose of the 'Number' object in JavaScript?",
-		"answers": [
-		  "To perform mathematical calculations",
-		  "To manipulate the Document Object Model (DOM)",
-		  "To handle asynchronous operations and promises",
-		  "To store data that persists across sessions"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 90,
-		"question": "What is the purpose of the 'Array.prototype.join()' method in JavaScript?",
-		"answers": [
-		  "To add new elements to an array",
-		  "To concatenate all elements of an array into a string",
-		  "To filter elements in an array",
-		  "To check if all elements of an array meet a condition"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 91,
-		"question": "What is the purpose of the 'String.prototype.substring()' method in JavaScript?",
-		"answers": [
-		  "To check if a string contains another string",
-		  "To retrieve a substring from a string",
-		  "To replace characters in a string with other characters",
-		  "To convert a string to uppercase"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 92,
-		"question": "What is the purpose of the 'Array.prototype.reverse()' method in JavaScript?",
-		"answers": [
-		  "To add new elements to an array",
-		  "To sort the elements of an array",
-		  "To reverse the order of elements in an array",
-		  "To check if all elements of an array meet a condition"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 93,
-		"question": "What is the purpose of the 'String.prototype.charAt()' method in JavaScript?",
-		"answers": [
-		  "To add characters to a string",
-		  "To retrieve a character from a string at a specific index",
-		  "To remove characters from a string",
-		  "To convert a string to uppercase"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 94,
-		"question": "What is the purpose of the 'Array.isArray()' method in JavaScript?",
-		"answers": [
-		  "To check if a variable is an array",
-		  "To convert an object to an array",
-		  "To remove the last element from an array",
-		  "To sort the elements of an array"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 95,
-		"question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
-		"answers": [
-		  "To retrieve an array of an object's property names",
-		  "To retrieve an array of an object's property values",
-		  "To retrieve an array of an object's methods",
-		  "To retrieve an array of an object's key-value pairs"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 96,
-		"question": "What is the purpose of the 'String.prototype.replace()' method in JavaScript?",
-		"answers": [
-		  "To add characters to a string",
-		  "To retrieve a character from a string",
-		  "To replace characters in a string with other characters",
-		  "To convert a string to uppercase"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 97,
-		"question": "What is the purpose of the 'Array.prototype.shift()' method in JavaScript?",
-		"answers": [
-		  "To add new elements to the beginning of an array",
-		  "To remove the first element from an array",
-		  "To sort the elements of an array",
-		  "To check if all elements of an array meet a condition"
-		],
-		"correctAnswer": 1
-	},
-	{
-		"id": 98,
-		"question": "What is the purpose of the 'String.prototype.toLowerCase()' method in JavaScript?",
-		"answers": [
-		  "To check if a string contains another string",
-		  "To retrieve a substring from a string",
-		  "To convert a string to lowercase",
-		  "To convert a string to uppercase"
-		],
-		"correctAnswer": 2
-	},
-	{
-		"id": 99,
-		"question": "What is the purpose of the 'Array.prototype.unshift()' method in JavaScript?",
-		"answers": [
-		  "To add new elements to the beginning of an array",
-		  "To remove the first element from an array",
-		  "To sort the elements of an array",
-		  "To check if all elements of an array meet a condition"
-		],
-		"correctAnswer": 0
-	},
-	{
-		"id": 100,
-		"question": "What is the purpose of the 'String.prototype.toUpperCase()' method in JavaScript?",
-		"answers": [
-		  "To check if a string contains another string",
-		  "To retrieve a substring from a string",
-		  "To convert a string to lowercase",
-		  "To convert a string to uppercase"
-		],
-		"correctAnswer": 3
-	}
+    {
+        "question": {
+            "es": "¿Cuál es el resultado de la expresión 2 + '2'?",
+            "en": "What is the result of the expression 2 + '2'?"
+        },
+        "answers": {
+            "es": [
+                "22",
+                "4",
+                "NaN",
+                "Error"
+            ],
+            "en": [
+                "22",
+                "4",
+                "NaN",
+                "Error"
+            ]
+        },
+        "id": 1,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál palabra clave se usa para declarar una constante en JavaScript?",
+            "en": "Which keyword is used to declare a constant in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "var",
+                "let",
+                "const",
+                "variable"
+            ],
+            "en": [
+                "var",
+                "let",
+                "const",
+                "variable"
+            ]
+        },
+        "id": 2,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "Qué imprime el código siguiente: console.log(3 == '3');",
+            "en": "What will the following code output: console.log(3 == '3');"
+        },
+        "answers": {
+            "es": [
+                "true",
+                "false",
+                "TypeError",
+                "undefined"
+            ],
+            "en": [
+                "true",
+                "false",
+                "TypeError",
+                "undefined"
+            ]
+        },
+        "id": 3,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el método de array que se usa para añadir elementos al final de un array?",
+            "en": "Which array method is used to add new elements to the end of an array?"
+        },
+        "answers": {
+            "es": [
+                "push()",
+                "pop()",
+                "shift()",
+                "unshift()"
+            ],
+            "en": [
+                "push()",
+                "pop()",
+                "shift()",
+                "unshift()"
+            ]
+        },
+        "id": 4,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de la palabra clave 'this' en JavaScript?",
+            "en": "What is the purpose of the 'this' keyword in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Hace referencia al scope de la función actual",
+                "Hace referencia al objeto global",
+                "Hace referencia al scope de la función padre",
+                "Hace referencia al contexto del objeto actual"
+            ],
+            "en": [
+                "It refers to the current function's scope",
+                "It refers to the global object",
+                "It refers to the parent function's scope",
+                "It refers to the current object's context"
+            ]
+        },
+        "id": 5,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Qué hace la palabra clave 'let'?",
+            "en": "What does the 'let' keyword do?"
+        },
+        "answers": {
+            "es": [
+                "Declara una variable con scope de bloque",
+                "Declara una variable con scope de función",
+                "Declara una variable global",
+                "Declara una variable constante"
+            ],
+            "en": [
+                "Declares a variable with block scope",
+                "Declares a variable with function scope",
+                "Declares a global variable",
+                "Declares a constant variable"
+            ]
+        },
+        "id": 6,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál evento ocurre cuando un elemento HTML es cliqueado?",
+            "en": "Which event occurs when an HTML element is clicked?"
+        },
+        "answers": {
+            "es": [
+                "click",
+                "mouseover",
+                "keydown",
+                "change"
+            ],
+            "en": [
+                "click",
+                "mouseover",
+                "keydown",
+                "change"
+            ]
+        },
+        "id": 7,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'addEventListener' en JavaScript?",
+            "en": "What is the purpose of the 'addEventListener' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Añade una nueva propiedad a un objeto",
+                "Crea un nuevo evento",
+                "Adjunta un manejador de eventos a un elemento",
+                "Crea una nueva función"
+            ],
+            "en": [
+                "It adds a new property to an object",
+                "It creates a new event",
+                "It attaches an event handler to an element",
+                "It creates a new function"
+            ]
+        },
+        "id": 8,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el operador usado para combinar múltiples strings en JavaScript?",
+            "en": "Which operator is used to combine multiple strings in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "+",
+                "&",
+                "*",
+                "/"
+            ],
+            "en": [
+                "+",
+                "&",
+                "*",
+                "/"
+            ]
+        },
+        "id": 9,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Qué hace la palabra clave 'async' cuando se usa antes de una función?",
+            "en": "What does the 'async' keyword do when used before a function?"
+        },
+        "answers": {
+            "es": [
+                "Declara la función como asincrónica",
+                "Declara la función como un generador",
+                "Declara la función como una promesa",
+                "Declara la función como un callback"
+            ],
+            "en": [
+                "It declares the function as asynchronous",
+                "It declares the function as a generator",
+                "It declares the function as a promise",
+                "It declares the function as a callback"
+            ]
+        },
+        "id": 10,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál objeto predefinido puede usarse para programar una función repetidamente en un intervalo específico?",
+            "en": "Which built-in object can be used to schedule a function to run repeatedly at a specified interval?"
+        },
+        "answers": {
+            "es": [
+                "setTimeout",
+                "setInterval",
+                "requestAnimationFrame",
+                "Promise"
+            ],
+            "en": [
+                "setTimeout",
+                "setInterval",
+                "requestAnimationFrame",
+                "Promise"
+            ]
+        },
+        "id": 11,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del objeto 'localStorage' en JavaScript?",
+            "en": "What is the purpose of the 'localStorage' object in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Almacenar datos que persisten entre sesiones del navegador",
+                "Almacenar datos que sólo son accesibles dentro de una sola sesión",
+                "Almacenar datos encriptados",
+                "Almacenar datos a los que pueden acceder otros sitios web"
+            ],
+            "en": [
+                "To store data that persists across browser sessions",
+                "To store data that is only accessible within a single session",
+                "To store data that is encrypted",
+                "To store data that is accessible by other websites"
+            ]
+        },
+        "id": 12,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es la diferencia entre 'null' y 'undefined' en JavaScript?",
+            "en": "What is the difference between 'null' and 'undefined' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "'null' se asigna por el desarrollador, mientras que 'undefined' es asignado por el motor de JavaScript",
+                "'null' representa la ausencia de un valor, mientras que 'undefined' indica que una variable fue declarada pero que no tiene un valor asignado",
+                "'null' es un tipo de dato primitivo, mientras que 'undefined' es un objeto",
+                "'null' es usado para manejo de errores, mientras que 'undefined' es usado para control de flujo"
+            ],
+            "en": [
+                "'null' is assigned by the developer, while 'undefined' is assigned by the JavaScript engine",
+                "'null' represents the absence of a value, while 'undefined' indicates a variable that has been declared but has no assigned value",
+                "'null' is a primitive data type, while 'undefined' is an object",
+                "'null' is used for error handling, while 'undefined' is used for flow control"
+            ]
+        },
+        "id": 13,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Qué hace el operador spread (...) en JavaScript?",
+            "en": "What does the spread operator (...) do in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Combina dos arrays en uno",
+                "Desestructura un objeto en variables separadas",
+                "Crea una copia superficial de un array u objeto",
+                "Mezcla dos objetos en uno"
+            ],
+            "en": [
+                "It combines two arrays into one",
+                "It destructures an object into separate variables",
+                "It creates a shallow copy of an array or object",
+                "It merges two objects into one"
+            ]
+        },
+        "id": 14,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es la diferencia entre '==' y '===' en JavaScript?",
+            "en": "What is the difference between '==' and '===' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "'==' realiza coreción de tipos, mientras que '===' realiza una comparación de igualdad estricta",
+                "'==' realiza una comparación de igualdad estricta, mientras que '===' realiza coerción de tipos",
+                "'==' es usado para comparar valores, mientras que '===' es usada para comparar referencias",
+                "'==' y '===' son intercambiables y producen el mismo resultado"
+            ],
+            "en": [
+                "'==' performs type coercion, while '===' performs strict equality comparison",
+                "'==' performs strict equality comparison, while '===' performs type coercion",
+                "'==' is used for comparing values, while '===' is used for comparing references",
+                "'==' and '===' are interchangeable and produce the same results"
+            ]
+        },
+        "id": 15,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Qué es una expresión de función ejecutada inmediatamente (IIFE) en JavaScript?",
+            "en": "What is an immediately invoked function expression (IIFE) in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Una función que se ejecuta en el momento que es definida",
+                "Una función que sólo puede ser ejecutada una vez",
+                "Una función que es ejecutada con un delay",
+                "Una función que es definida dentro de otra función"
+            ],
+            "en": [
+                "A function that runs as soon as it is defined",
+                "A function that can only be invoked once",
+                "A function that is invoked with a delay",
+                "A function that is defined within another function"
+            ]
+        },
+        "id": 16,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el método de array usado para eliminar el primer elemento de un array?",
+            "en": "Which array method is used to remove the first element from an array?"
+        },
+        "answers": {
+            "es": [
+                "shift()",
+                "pop()",
+                "splice()",
+                "slice()"
+            ],
+            "en": [
+                "shift()",
+                "pop()",
+                "splice()",
+                "slice()"
+            ]
+        },
+        "id": 17,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de la sentencia 'try...catch' en JavaScript?",
+            "en": "What is the purpose of the 'try...catch' statement in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Define una nueva variable dentro de un bloque",
+                "Ayuda a organizar el código dentro de funciones más pequeñas",
+                "Maneja errores y excepciones en el código",
+                "Es usado para iterar sobre arrays y objetos"
+            ],
+            "en": [
+                "It defines a new variable within a block",
+                "It helps to organize code into smaller functions",
+                "It handles errors and exceptions in code",
+                "It is used to iterate over arrays and objects"
+            ]
+        },
+        "id": 18,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el método usado para eliminar el último elemento de un array y devolver ese elemento?",
+            "en": "Which method is used to remove the last element from an array and return that element?"
+        },
+        "answers": {
+            "es": [
+                "shift()",
+                "unshift()",
+                "pop()",
+                "push()"
+            ],
+            "en": [
+                "shift()",
+                "unshift()",
+                "pop()",
+                "push()"
+            ]
+        },
+        "id": 19,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el proósito de la API 'fetch' en JavaScript?",
+            "en": "What is the purpose of the 'fetch' API in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Manipular el Document Object Model (DOM)",
+                "Manejar operaciones asincrónicas y promesas",
+                "Realizar cálculos matemáticos",
+                "Manejar envíos de formulario"
+            ],
+            "en": [
+                "To manipulate the Document Object Model (DOM)",
+                "To handle asynchronous operations and promises",
+                "To perform mathematical calculations",
+                "To handle form submissions"
+            ]
+        },
+        "id": 20,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Qué es un closure en JavaScript?",
+            "en": "What is a closure in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Un tipo de estructura de datos para almacenar pares de clave-valor",
+                "Una función predefinida en JavaScript",
+                "Una manera de declarar variables globales",
+                "Una función que tiene acceso a las variables de su función externa"
+            ],
+            "en": [
+                "A data structure for storing key-value pairs",
+                "A built-in function in JavaScript",
+                "A way to declare global variables",
+                "A function that has access to its outer function's variables"
+            ]
+        },
+        "id": 21,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Object.keys()' en JavaScript?",
+            "en": "What is the purpose of the 'Object.keys()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crear un nuevo objeto",
+                "Recuperar un array a partir de los nombres de las propiedades de un objeto",
+                "Recuperar un array a partir de los valores de las propiedades de un objeto",
+                "Recuperar un array a partir de los métodos de un objeto"
+            ],
+            "en": [
+                "To create a new object",
+                "To retrieve an array of an object's property names",
+                "To retrieve an array of an object's property values",
+                "To retrieve an array of an object's methods"
+            ]
+        },
+        "id": 22,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Qué devuelve el operador 'typeof' en JavaScript?",
+            "en": "What does the 'typeof' operator in JavaScript return?"
+        },
+        "answers": {
+            "es": [
+                "El tipo de dato de un valor",
+                "La longitud de un array",
+                "El valor de la propiedad de un objeto",
+                "El nombre de una función"
+            ],
+            "en": [
+                "The data type of a value",
+                "The length of an array",
+                "The value of an object's property",
+                "The name of a function"
+            ]
+        },
+        "id": 23,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del objeto 'Promise' en JavaScript?",
+            "en": "What is the purpose of the 'Promise' object in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crear una función asincrónica",
+                "Manejar eventos en el navegador",
+                "Iterar sobre arrays",
+                "Validar la entrada del usuario"
+            ],
+            "en": [
+                "To create asynchronous functions",
+                "To handle events in the browser",
+                "To iterate over arrays",
+                "To validate user input"
+            ]
+        },
+        "id": 24,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es la diferencia entre 'let' y 'const' en JavaScript?",
+            "en": "What is the difference between 'let' and 'const' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "'let' es usada para valores constantes, mientras que 'const' es usada para variables que pueden cambiar",
+                "'let' puede ser redeclarada, mientras que 'const' no puede ser redeclarada",
+                "'let' tiene scope de bloque, mientras que 'const' tiene scope de función",
+                "Las variables 'let' están hoisteadas, mientras que las variables 'const' no lo están"
+            ],
+            "en": [
+                "'let' is used for constant values, while 'const' is used for variables that can change",
+                "'let' can be redeclared, while 'const' cannot be redeclared",
+                "'let' has block scope, while 'const' has function scope",
+                "'let' variables are hoisted, while 'const' variables are not"
+            ]
+        },
+        "id": 25,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de los 'template literals' en JavaScript?",
+            "en": "What is the purpose of the 'template literals' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crear comentarios multilínea",
+                "Definir variables con valores dinámicos",
+                "Escribir expresiones regulares",
+                "Crear strings con expresiones incrustadas"
+            ],
+            "en": [
+                "To create multi-line comments",
+                "To define variables with dynamic values",
+                "To write regular expressions",
+                "To create strings with embedded expressions"
+            ]
+        },
+        "id": 26,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de las 'funciones de flecha' en JavaScript?",
+            "en": "What is the purpose of the 'arrow functions' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Declarar nuevos objetos",
+                "Crear funciones anónimas",
+                "Crear declaraciones condicionales",
+                "Proveen atajos para crar expresiones de función"
+            ],
+            "en": [
+                "To declare new objects",
+                "To create anonymous functions",
+                "To define conditional statements",
+                "To provide shortcuts for creating function expressions"
+            ]
+        },
+        "id": 27,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el método usado para eliminar elementos de un array a partir de una condición?",
+            "en": "Which method is used to remove elements from an array based on a condition?"
+        },
+        "answers": {
+            "es": [
+                "filter()",
+                "find()",
+                "map()",
+                "reduce()"
+            ],
+            "en": [
+                "filter()",
+                "find()",
+                "map()",
+                "reduce()"
+            ]
+        },
+        "id": 28,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Qué hace el método 'Object.create()' en JavaScript?",
+            "en": "What does the 'Object.create()' method do in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crea un nuevo objeto y copia las propiedades de un objeto existente",
+                "Crea un nuevo objeto con los prototipos de objeto especificados",
+                "Crea una copia de un array",
+                "Crea un nuevo objeto y le asigna propiedades usando una función fábrica"
+            ],
+            "en": [
+                "It creates a new object and copies properties from an existing object",
+                "It creates a new object with the specified prototype object",
+                "It creates a copy of an array",
+                "It creates a new object and assigns properties using a factory function"
+            ]
+        },
+        "id": 29,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de la función 'map' en JavaScript?",
+            "en": "What is the purpose of the 'map' function in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crear un nuevo array aplicando una función a cada elemento",
+                "Filtrar los elementos de un array basado en una condición",
+                "Eliminar elementos de un array",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "To create a new array by applying a function to each element",
+                "To filter elements in an array based on a condition",
+                "To remove elements from an array",
+                "To sort the elements of an array"
+            ]
+        },
+        "id": 30,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Qué es el concepto de 'hoisting' en JavaScript?",
+            "en": "What is the concept of 'hoisting' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Se refiere al proceso de levantar objetos pesados en el código",
+                "Se refiere a la habilidad de las funciones para acceder a variables fuera de su scope",
+                "Se refiere al comportamiento de mover todo el código al principio del archivo",
+                "Se refiere al comportamiento de declarar las variables antes de que sean usadas"
+            ],
+            "en": [
+                "It refers to the process of lifting heavy objects in code",
+                "It refers to the ability of functions to access variables from their outer scope",
+                "It refers to the behavior of moving all code to the top of the file",
+                "It refers to the behavior of variables being declared before they are used"
+            ]
+        },
+        "id": 31,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del tipo de dato 'Symbol' en JavaScript?",
+            "en": "What is the purpose of the 'Symbol' data type in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crear estructuras de datos complejas",
+                "Almacenar múltiples valores en una sola variable",
+                "Representar valores únicos previniendo conflictos de nombres",
+                "Manipular strings y texto"
+            ],
+            "en": [
+                "To create complex data structures",
+                "To store multiple values in a single variable",
+                "To represent unique values and prevent naming conflicts",
+                "To manipulate strings and text"
+            ]
+        },
+        "id": 32,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de la sintaxis 'async/await' en JavaScript?",
+            "en": "What is the purpose of the 'async/await' syntax in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Definir callbacks en código asíncrono",
+                "Declarar variables con valores asíncronos",
+                "Manejar excepciones en bloques try-catch",
+                "Simplificar código asíncrono haciéndolo ver más como código síncrono"
+            ],
+            "en": [
+                "To define callbacks in asynchronous code",
+                "To declare variables with asynchronous values",
+                "To handle exceptions in try-catch blocks",
+                "To simplify asynchronous code by making it look more like synchronous code"
+            ]
+        },
+        "id": 33,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el método usado para unir todos los elementos de un array en un string?",
+            "en": "Which array method is used to join all elements of an array into a string?"
+        },
+        "answers": {
+            "es": [
+                "join()",
+                "concat()",
+                "push()",
+                "split()"
+            ],
+            "en": [
+                "join()",
+                "concat()",
+                "push()",
+                "split()"
+            ]
+        },
+        "id": 34,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de 'Symbol.iterator' en JavaScript?",
+            "en": "What is the purpose of the 'Symbol.iterator' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Acceder al prototipo de un objeto",
+                "Iterar sobre las propiedades de un objeto",
+                "Convertir un objeto a string",
+                "Definir un iterador por defecto para un objeto"
+            ],
+            "en": [
+                "To access the prototype of an object",
+                "To iterate over the properties of an object",
+                "To convert an object to a string",
+                "To define a default iterator for an object"
+            ]
+        },
+        "id": 35,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el proósito de la 'asignación de desestructuración' en JavaScript?",
+            "en": "What is the purpose of the 'destructuring assignment' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Asignar valores a múltiples variables",
+                "Declarar variables usando la palabra clave 'let'",
+                "Crear nuevos objetos a partir de objetos existentes",
+                "Ejecutar múltiples declaraciones en una sola línea"
+            ],
+            "en": [
+                "To assign a value to multiple variables",
+                "To declare variables using the 'let' keyword",
+                "To create new objects from existing objects",
+                "To execute multiple statements in a single line"
+            ]
+        },
+        "id": 36,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es la diferencia entre 'localStorage' y 'sessionStorage' en JavaScript?",
+            "en": "What is the difference between 'localStorage' and 'sessionStorage' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "'localStorage' almacena los datos que persisten entre sesiones, mientra que 'sessionStorage' almacena datos que se borran cuando termina la sesión del navegador",
+                "'localStorage' es más seguro que 'sessionStorage'",
+                "'localStorage' sólo puede almacenar strings, mientras que 'sessionStorage' puede almacenar varios tipos de datos",
+                "'localStorage' y 'sessionStorage' son dos nombres para el mismo mecanismo de almacenamiento"
+            ],
+            "en": [
+                "'localStorage' stores data that persists across sessions, while 'sessionStorage' stores data that is cleared when the browser session ends",
+                "'localStorage' is more secure than 'sessionStorage'",
+                "'localStorage' can only store strings, while 'sessionStorage' can store various data types",
+                "'localStorage' and 'sessionStorage' are two names for the same storage mechanism"
+            ]
+        },
+        "id": 37,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de los 'ES6 Modules' en JavaScript?",
+            "en": "What is the purpose of the 'ES6 Modules' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crear módulos de código autónomos",
+                "Proveer compatibilidad con navegadores antiguos",
+                "Mejorar el rendimiento del código en ejecución",
+                "Crear interfaces de usuario interactivas"
+            ],
+            "en": [
+                "To create self-contained code modules",
+                "To provide compatibility with older browsers",
+                "To improve performance of code execution",
+                "To create interactive user interfaces"
+            ]
+        },
+        "id": 38,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Qué almacena el objeto 'Map' en JavaScript?",
+            "en": "What does the 'Map' object in JavaScript store?"
+        },
+        "answers": {
+            "es": [
+                "Pares de clave-valor donde las claves son únicas",
+                "Arrays de valores",
+                "Valores singulares de diferentes tipos de datos",
+                "Funciones y métodos"
+            ],
+            "en": [
+                "Key-value pairs where keys are unique",
+                "Arrays of values",
+                "Single values of different data types",
+                "Functions and methods"
+            ]
+        },
+        "id": 39,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Object.freeze()' en JavaScript?",
+            "en": "What is the purpose of the 'Object.freeze()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Dejar de ejecutar una función",
+                "Prevenir a una función de ser llamada",
+                "Congelar la ejecución del código",
+                "Hacer que las propiedades de un objeto no escribibles y no configurables"
+            ],
+            "en": [
+                "To stop a function from executing",
+                "To prevent a function from being called",
+                "To freeze the execution of code",
+                "To make an object's properties non-writable and non-configurable"
+            ]
+        },
+        "id": 40,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Para qué se usa la propiedad 'prototype' en JavaScript?",
+            "en": "What is the 'prototype' property in JavaScript used for?"
+        },
+        "answers": {
+            "es": [
+                "Para definir el constructor de un objeto",
+                "Para establecer la herencia de un objeto",
+                "Para definir métodos y propiedades de un objeto",
+                "Para relacionar objetos con sus objetos padre"
+            ],
+            "en": [
+                "To define the constructor of an object",
+                "To set the inheritance of an object",
+                "To define the methods and properties of an object",
+                "To link objects to their parent objects"
+            ]
+        },
+        "id": 41,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.isArray()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.isArray()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si una variable es un array",
+                "Convertir un objeto a un array",
+                "Eliminar el último elemento de un array",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "To check if a variable is an array",
+                "To convert an object to an array",
+                "To remove the last element from an array",
+                "To sort the elements of an array"
+            ]
+        },
+        "id": 42,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el concepto de la 'currificación' en JavaScript?",
+            "en": "What is the concept of 'currying' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Se refiere al prooceso de encadenar múltiples métodos de array",
+                "Se refiere al proceso de convertir una función con múltiples argumentos en una serie de funciones que toman sólo un argumento",
+                "Se refiere al proceso de combinar múltiples objetos en uno",
+                "Se refiere al proceso de programar asincrónicamente usando promesas"
+            ],
+            "en": [
+                "It refers to the process of chaining multiple array methods",
+                "It refers to the process of converting a function with multiple arguments into a series of functions that take one argument",
+                "It refers to the process of combining multiple objects into one",
+                "It refers to the process of asynchronous programming using promises"
+            ]
+        },
+        "id": 43,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Qué hace el método 'localStorage.setItem()'?",
+            "en": "What does the 'localStorage.setItem()' method do?"
+        },
+        "answers": {
+            "es": [
+                "Recuperar un item del local storage",
+                "Almacenar un item en el local storage",
+                "Eliminar un item del local storage",
+                "Eliminar todos los items del local storage"
+            ],
+            "en": [
+                "It retrieves an item from the local storage",
+                "It stores an item in the local storage",
+                "It removes an item from the local storage",
+                "It clears all items from the local storage"
+            ]
+        },
+        "id": 44,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del objeto 'WeakMap' en JavaScript?",
+            "en": "What is the purpose of the 'WeakMap' object in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Almacenar pares de clave-valor donde las claves son débilmente referenciadas",
+                "Almacenar datos de una forma en la cual no se pueda acceder luego",
+                "Almacenar datos fuertemente referenciados",
+                "Almacenar datos en un formato encriptado"
+            ],
+            "en": [
+                "To store key-value pairs where keys are weakly referenced",
+                "To store data in a way that it cannot be accessed later",
+                "To store data that is strongly referenced",
+                "To store data in an encrypted format"
+            ]
+        },
+        "id": 45,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es la diferencia entre los objetos 'window' y 'document' en JavaScript?",
+            "en": "What is the difference between 'window' and 'document' objects in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "'window' se refiere a la ventana actual del navegador, mientras que 'document' se refiere al contenido HTML de la página actual",
+                "'window' se refiere al contenido HTML de la página actual, mientras que 'document' se refiere a la ventana actual del navegador",
+                "'window' y 'document' son dos nombres para el mismo objeto",
+                "Ambos 'window' y 'document' se refieren al objeto global"
+            ],
+            "en": [
+                "'window' refers to the current browser window, while 'document' refers to the HTML content of the current page",
+                "'window' refers to the HTML content of the current page, while 'document' refers to the current browser window",
+                "'window' and 'document' are two names for the same object",
+                "'window' and 'document' both refer to the global object"
+            ]
+        },
+        "id": 46,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Symbol.toPrimitive' en JavaScript?",
+            "en": "What is the purpose of the 'Symbol.toPrimitive' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Convertir un valor a string",
+                "Convertir un valor a número",
+                "Personalizar la conversión de un valor a tipo primitivo",
+                "Comparar dos valores para determinar su igualdad"
+            ],
+            "en": [
+                "To convert a value to a string",
+                "To convert a value to a number",
+                "To customize the conversion of a value to a primitive type",
+                "To compare two values for equality"
+            ]
+        },
+        "id": 47,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Symbol.iterator' en JavaScript?",
+            "en": "What is the purpose of the 'Symbol.iterator' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Acceder al prototipo de un objeto",
+                "Convertir un objeto a string",
+                "Crear un objeto iterable que puede usarse en un loop 'for...of'",
+                "Definir un valor por defecto para un objeto"
+            ],
+            "en": [
+                "To access an object's prototype",
+                "To convert an object to a string",
+                "To create an iterable object that can be used in a 'for...of' loop",
+                "To define a default value for an object"
+            ]
+        },
+        "id": 48,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Qué representa el valor 'NaN' en JavaScript?",
+            "en": "What does the 'NaN' value represent in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "El valor del infinito",
+                "Un valor de error que indica un número inválido",
+                "La absencia de un valor",
+                "Un placeholder para una variable indefinida"
+            ],
+            "en": [
+                "The value of infinity",
+                "An error value indicating an invalid number",
+                "The absence of a value",
+                "A placeholder for an undefined variable"
+            ]
+        },
+        "id": 49,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Promise.all()' en JavaScript?",
+            "en": "What is the purpose of the 'Promise.all()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crear una nueva promesa",
+                "Manejar errores en código asíncrono",
+                "Combinar múltiples promesas en una sola",
+                "Convertir múltiples promesas en funciones comunes"
+            ],
+            "en": [
+                "To create a new promise",
+                "To handle errors in asynchronous code",
+                "To combine multiple promises into a single promise",
+                "To convert promises into regular functions"
+            ]
+        },
+        "id": 50,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Promise.race()' en JavaScript?",
+            "en": "What is the purpose of the 'Promise.race()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Competir múltiples promesas entre sí y resolver la primera que se complete",
+                "Competir múltiples promesas entre sí y resolver la última que se complete",
+                "Competir múltiples promesas entre sí y rechazar la primera que se complete",
+                "Competir múltiples promesas entre sí y rechazar la última que se complete"
+            ],
+            "en": [
+                "To race multiple promises and resolve the first one that completes",
+                "To race multiple promises and resolve the last one that completes",
+                "To race multiple promises and reject the first one that completes",
+                "To race multiple promises and reject the last one that completes"
+            ]
+        },
+        "id": 51,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el proósito del método 'Object.assign()' en JavaScript?",
+            "en": "What is the purpose of the 'Object.assign()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crear un nuevo objeto con propiedades asignadas",
+                "Asignar valores a múltiples variables",
+                "Definir un constructor para un objeto",
+                "Asignar propiedades de un objeto a otro"
+            ],
+            "en": [
+                "To create a new object with assigned properties",
+                "To assign values to multiple variables",
+                "To define a constructor for an object",
+                "To assign properties from one object to another"
+            ]
+        },
+        "id": 52,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Qué hace el método 'startsWith()' en JavaScript?",
+            "en": "What does the 'startsWith()' method in JavaScript do?"
+        },
+        "answers": {
+            "es": [
+                "Verifica si un string termina con un substring específico",
+                "Verifica si un string empieza con un substring específico",
+                "Verifica si un string contiene un substring específico",
+                "Verifica si un string es igual a un substring específico"
+            ],
+            "en": [
+                "It checks if a string ends with a specified substring",
+                "It checks if a string starts with a specified substring",
+                "It checks if a string contains a specified substring",
+                "It checks if a string is the same as a specified substring"
+            ]
+        },
+        "id": 53,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el proósito del método 'Array.from()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.from()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crear un nuevo array a partir de uno ya existente",
+                "Convertir un array a string",
+                "Revertir el orden de los elementos de un array",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "To create a new array from an existing array",
+                "To convert an array to a string",
+                "To reverse the order of elements in an array",
+                "To sort the elements of an array"
+            ]
+        },
+        "id": 54,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el concepto de 'memoización' en JavaScript?",
+            "en": "What is the concept of 'memoization' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Se refiere al proceso de almacenar datos en la memoria del navegador",
+                "Se refiere al proceso de optimizar las peticiones de red",
+                "Se refiere al proceso de cachear los resultados de una función costosa para usarla luego",
+                "Se refiere al proceso de minficar código para tener mejor rendimiento"
+            ],
+            "en": [
+                "It refers to the process of storing data in the browser's memory",
+                "It refers to the process of optimizing network requests",
+                "It refers to the process of caching the results of expensive function calls for later use",
+                "It refers to the process of minifying code for better performance"
+            ]
+        },
+        "id": 55,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.reduce()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.reduce()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Filtrar los elementos de un array",
+                "Añadir elementos a un array",
+                "Combinar todos los elementos de un array en un solo valor",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "To filter elements in an array",
+                "To add new elements to an array",
+                "To combine all elements of an array into a single value",
+                "To sort the elements of an array"
+            ]
+        },
+        "id": 56,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de la función 'encodeURIComponent()' en JavaScript?",
+            "en": "What is the purpose of the 'encodeURIComponent()' function in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Descodificar un componente URI",
+                "Codificar un componente URI para usarlo en una URL",
+                "Validar una URL",
+                "Verificar si una URL es accesible"
+            ],
+            "en": [
+                "To decode a URI component",
+                "To encode a URI component for use in a URL",
+                "To validate a URL",
+                "To check if a URL is accessible"
+            ]
+        },
+        "id": 57,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Qué hace el método 'bind()' en JavaScript?",
+            "en": "What does the 'bind()' method do in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crea un nuevo array aplicando una función a cada elemento",
+                "Enlaza una función a un contexto específico, creando una nueva función",
+                "Filtra los elementos de un array basado en una condición",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "It creates a new array by applying a function to each element",
+                "It binds a function to a specific context, creating a new function",
+                "It filters elements in an array based on a condition",
+                "It sorts the elements of an array"
+            ]
+        },
+        "id": 58,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de la 'Web Workers' API en JavaScript?",
+            "en": "What is the purpose of the 'Web Workers' API in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crear interfaces de usuario responsivas",
+                "Manipular el Document Object Model (DOM)",
+                "Para realizar tareas multi-hilo en aplicaciones web",
+                "Manejar operaciones asíncronas y promesas"
+            ],
+            "en": [
+                "To create responsive user interfaces",
+                "To manipulate the Document Object Model (DOM)",
+                "To perform multi-threading in web applications",
+                "To handle asynchronous operations and promises"
+            ]
+        },
+        "id": 59,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.some()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.some()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si todos los elementos de un array cumplen con una condición",
+                "Verificar que al menos un elemento de un array cumpla con una condición",
+                "Combinar todos los elementos de un array en un solo valor",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "To check if all elements of an array meet a condition",
+                "To check if at least one element of an array meets a condition",
+                "To combine all elements of an array into a single value",
+                "To sort the elements of an array"
+            ]
+        },
+        "id": 60,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de la función 'encodeURIComponent()' en JavaScript?",
+            "en": "What is the purpose of the 'encodeURIComponent()' function in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Descodificar un componente URI",
+                "Codificar un componente URI para usarlo en una URL",
+                "Validar una URL",
+                "Verificar si una URL es accesible"
+            ],
+            "en": [
+                "To decode a URI component",
+                "To encode a URI component for use in a URL",
+                "To validate a URL",
+                "To check if a URL is accessible"
+            ]
+        },
+        "id": 61,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es la diferencia entre los métodos 'call()' y 'apply()' en JavaScript?",
+            "en": "What is the difference between 'call()' and 'apply()' methods in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "'call()' es usado para invocar una función y pasarle argumentos individualmente, mientras que 'apply()' es usado para invocar una función y pasarle argumentos como array",
+                "'call()' es usado para enlazar una función a un contexto específico, mientras que 'apply()' es usado para crear una nueva función",
+                "'call()' y 'apply()' son intercambiables y producen los mismos resultados",
+                "'call()' y 'apply()' no son métodos válidos en JavaScript"
+            ],
+            "en": [
+                "'call()' is used to invoke a function and pass arguments individually, while 'apply()' is used to invoke a function and pass arguments as an array",
+                "'call()' is used to bind a function to a specific context, while 'apply()' is used to create a new function",
+                "'call()' and 'apply()' are interchangeable and produce the same results",
+                "'call()' and 'apply()' are not valid methods in JavaScript"
+            ]
+        },
+        "id": 62,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.every()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.every()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si todos los elementos de un array cumplen con una condición",
+                "Verificar si al menos un elemento de un array cumple con una condición",
+                "Combinar todos los elementos de un array en un solo valor",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "To check if all elements of an array meet a condition",
+                "To check if at least one element of an array meets a condition",
+                "To combine all elements of an array into a single value",
+                "To sort the elements of an array"
+            ]
+        },
+        "id": 63,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del objeto 'Date' en JavaScript?",
+            "en": "What is the purpose of the 'Date' object in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Realizar cálculos matemáticos",
+                "Almacenar y manipular información de fecha y hora",
+                "Crear una nueva función",
+                "Crear expresiones regulares"
+            ],
+            "en": [
+                "To perform mathematical calculations",
+                "To store and manipulate date and time information",
+                "To create a new function",
+                "To create regular expressions"
+            ]
+        },
+        "id": 64,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del objeto 'Set' en JavaScript?",
+            "en": "What is the purpose of the 'Set' object in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Almacenar pares de clave-valor donde las claves son únicas",
+                "Almacenar múltiples valores en una sola variable",
+                "Almacenar datos que persisten entre sesiones del navegador",
+                "Almacenar valores únicos de cualquier tipo, sean valores primitivos o referencias de objeto"
+            ],
+            "en": [
+                "To store key-value pairs where keys are unique",
+                "To store multiple values in a single variable",
+                "To store data that persists across sessions",
+                "To store unique values of any type, whether primitive values or object references"
+            ]
+        },
+        "id": 65,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.find()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.find()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si todos los elementos de un array cumplen con una condición",
+                "Verificar si al menos un elemento de un array cumple con una condición",
+                "Encontrar el índice de un elemento específico en un array",
+                "Encontrar el primer elemento en un array que cumpla con una condición"
+            ],
+            "en": [
+                "To check if all elements of an array meet a condition",
+                "To check if at least one element of an array meets a condition",
+                "To find the index of a specific element in an array",
+                "To find the first element in an array that meets a condition"
+            ]
+        },
+        "id": 66,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es la diferencia entre 'event.preventDefault()' y 'event.stopPropagation()' en JavaScript?",
+            "en": "What is the difference between 'event.preventDefault()' and 'event.stopPropagation()' in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "'event.preventDefault()' previene el comportamiento por defecto de un evento, mientras que 'event.stopPropagation()' interrumpe que el evento se propague a elementos padre",
+                "'event.preventDefault()' previene que el evento se propague a elementos padre, mientras que 'event.stopPropagation()' previene el comportamiento por defecto de un evento",
+                "'event.preventDefault()' y 'event.stopPropagation()' son lo mismo y pueden usarse indistintamente",
+                "Ambos 'event.preventDefault()' y 'event.stopPropagation()' previenen que el evento pueda ocurrir"
+            ],
+            "en": [
+                "'event.preventDefault()' prevents the default behavior of an event, while 'event.stopPropagation()' stops the event from propagating to parent elements",
+                "'event.preventDefault()' stops the event from propagating to parent elements, while 'event.stopPropagation()' prevents the default behavior of an event",
+                "'event.preventDefault()' and 'event.stopPropagation()' are the same and can be used interchangeably",
+                "'event.preventDefault()' and 'event.stopPropagation()' both prevent the event from occurring"
+            ]
+        },
+        "id": 67,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del objeto 'Math' en JavaScript?",
+            "en": "What is the purpose of the 'Math' object in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Manipular el Document Object Model (DOM)",
+                "Manejar operaciones asincrónicas y promesas",
+                "Realizar operaciones y cálculos matemáticos",
+                "Almacenar datos que persisten entre sesiones del navegador"
+            ],
+            "en": [
+                "To manipulate the Document Object Model (DOM)",
+                "To handle asynchronous operations and promises",
+                "To perform mathematical operations and calculations",
+                "To store data that persists across sessions"
+            ]
+        },
+        "id": 68,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.findIndex()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.findIndex()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si todos los elementos de un array cumplen con una condición",
+                "Verificar si al menos un elemento de un array cumple con una condición",
+                "Encontrar el índice de un elemento específico en un array",
+                "Encontrar el primer elemento en un array que cumpla con una condición"
+            ],
+            "en": [
+                "To check if all elements of an array meet a condition",
+                "To check if at least one element of an array meets a condition",
+                "To find the index of a specific element in an array",
+                "To find the first element in an array that meets a condition"
+            ]
+        },
+        "id": 69,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'localStorage.removeItem()' en JavaScript?",
+            "en": "What is the purpose of the 'localStorage.removeItem()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Recuperar un item del local storage",
+                "Almacenar un item en el local storage",
+                "Eliminar un item del local storage",
+                "Eliminar todos los items del local storage"
+            ],
+            "en": [
+                "To retrieve an item from the local storage",
+                "To store an item in the local storage",
+                "To remove an item from the local storage",
+                "To clear all items from the local storage"
+            ]
+        },
+        "id": 70,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de la 'fetch' API en JavaScript?",
+            "en": "What is the purpose of the 'fetch' API in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Manipular el Document Object Model (DOM)",
+                "Manejar operaciones asincrónicas y promesas",
+                "Realizar cálculos matemáticos",
+                "Manejar envíos de formulario"
+            ],
+            "en": [
+                "To manipulate the Document Object Model (DOM)",
+                "To handle asynchronous operations and promises",
+                "To perform mathematical calculations",
+                "To handle form submissions"
+            ]
+        },
+        "id": 71,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.flat()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.flat()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si todos los elementos de un array cumplen con una condición",
+                "Aplanar un array anidado concatenando los sub-arays",
+                "Encontrar el índice de un elemento específico en un array",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "To check if all elements of an array meet a condition",
+                "To flatten a nested array by concatenating sub-arrays",
+                "To find the index of a specific element in an array",
+                "To sort the elements of an array"
+            ]
+        },
+        "id": 72,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de la función 'setTimeout()' en JavaScript?",
+            "en": "What is the purpose of the 'setTimeout()' function in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Ejecutar una función repetidamente en un intervalo específico",
+                "Retrasar la ejecución de una función durante un tiempo específico",
+                "Definir el prototipo de un objeto",
+                "Manejar operaciones asincrónicas y promesas"
+            ],
+            "en": [
+                "To execute a function repeatedly at a specific interval",
+                "To delay the execution of a function by a specified time",
+                "To define the prototype of an object",
+                "To handle asynchronous operations and promises"
+            ]
+        },
+        "id": 73,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del objeto 'RegExp' en JavaScript?",
+            "en": "What is the purpose of the 'RegExp' object in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Almacenar múltiples valores en una sola variable",
+                "Realizar cálculos matemáticos",
+                "Manejar operaciones asincrónicas y promesas",
+                "Representar expresiones regulares y coincidir patrones"
+            ],
+            "en": [
+                "To store multiple values in a single variable",
+                "To perform mathematical calculations",
+                "To handle asynchronous operations and promises",
+                "To represent regular expressions and pattern matching"
+            ]
+        },
+        "id": 74,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.includes()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.includes()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si todos los elementos de un array cumplen con una condición",
+                "Verificar si al menos un elemento de un array cumple con una condición",
+                "Verificar si un array contiene un elemento específico",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "To check if all elements of an array meet a condition",
+                "To check if at least one element of an array meets a condition",
+                "To check if an array contains a specific element",
+                "To sort the elements of an array"
+            ]
+        },
+        "id": 75,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Object.entries()' en JavaScript?",
+            "en": "What is the purpose of the 'Object.entries()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Recuperar un array a partir de los nombres de las propiedades de un objeto",
+                "Recuperar un array a partir de los valores de las propiedades de un objeto",
+                "Recuperar un array a partir de los métodos de un objeto",
+                "Recuperar un array a partir de los pares de clave-valor de un objeto"
+            ],
+            "en": [
+                "To retrieve an array of an object's property names",
+                "To retrieve an array of an object's property values",
+                "To retrieve an array of an object's methods",
+                "To retrieve an array of an object's key-value pairs"
+            ]
+        },
+        "id": 76,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de la función 'isNaN()' en JavaScript?",
+            "en": "What is the purpose of the 'isNaN()' function in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si un valor es un número",
+                "Convertir un valor a número",
+                "Crear un nuevo número",
+                "Manipular las propiedades de un número"
+            ],
+            "en": [
+                "To check if a value is a number",
+                "To convert a value to a number",
+                "To create a new number",
+                "To manipulate a number's properties"
+            ]
+        },
+        "id": 77,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.splice()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.splice()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Añadir nuevos elementos a un array",
+                "Eliminar los elementos de un array y opcionalmente reemplazarlos con elementos nuevos",
+                "Verificar si todos los elementos de un array cumplen con una condición",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "To add new elements to an array",
+                "To remove elements from an array and optionally replace them with new elements",
+                "To check if all elements of an array meet a condition",
+                "To sort the elements of an array"
+            ]
+        },
+        "id": 78,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito de la función 'parseInt()' en JavaScript?",
+            "en": "What is the purpose of the 'parseInt()' function in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Convertir un valor a entero",
+                "Convertir un valor a un número de coma flotante",
+                "Verificar si un valor es un número",
+                "Recuperar un array a partir de los nombres de las propiedades de un objeto"
+            ],
+            "en": [
+                "To convert a value to an integer",
+                "To convert a value to a floating-point number",
+                "To check if a value is a number",
+                "To retrieve an array of an object's property names"
+            ]
+        },
+        "id": 79,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'JSON.parse()' en JavaScript?",
+            "en": "What is the purpose of the 'JSON.parse()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Convertir un objeto de JavaScript a un string JSON",
+                "Convertir un string JSON a un objeto de JavaScript",
+                "Parsear una URL",
+                "Realizar operaciones asíncronas"
+            ],
+            "en": [
+                "To convert a JavaScript object to a JSON string",
+                "To convert a JSON string to a JavaScript object",
+                "To parse a URL",
+                "To perform asynchronous operations"
+            ]
+        },
+        "id": 80,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.from()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.from()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crear un nuevo array a partir de uno ya existente",
+                "Convertir un array a string",
+                "Revertir el orden de los elementos de un array",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "To create a new array from an existing array",
+                "To convert an array to a string",
+                "To reverse the order of elements in an array",
+                "To sort the elements of an array"
+            ]
+        },
+        "id": 81,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'String.prototype.trim()' en JavaScript?",
+            "en": "What is the purpose of the 'String.prototype.trim()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Eliminar todos los espacios de un string",
+                "Añadir espacios al principio y al final de un string",
+                "Convertir un string a mayúsculas",
+                "Eliminar los espacios del principio y el final de un string"
+            ],
+            "en": [
+                "To remove all spaces from a string",
+                "To add spaces to the beginning and end of a string",
+                "To convert a string to uppercase",
+                "To remove spaces from the beginning and end of a string"
+            ]
+        },
+        "id": 82,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.forEach()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.forEach()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si todos los elementos de un array cumplen con una condición",
+                "Ejecutar una función para cada elemento de un array",
+                "Combinar todos los elementos de un array en un solo valor",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "To check if all elements of an array meet a condition",
+                "To execute a function for each element of an array",
+                "To combine all elements of an array into a single value",
+                "To sort the elements of an array"
+            ]
+        },
+        "id": 83,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.filter()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.filter()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Añadir nuevos elementos a un array",
+                "Eliminar elementos de un array",
+                "Verificar si todos los elementos de un array cumplen con una condición",
+                "Crear un nuevo array con los elementos que cumplen una condición"
+            ],
+            "en": [
+                "To add new elements to an array",
+                "To remove elements from an array",
+                "To check if all elements of an array meet a condition",
+                "To create a new array with elements that meet a condition"
+            ]
+        },
+        "id": 84,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.map()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.map()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Añadir nuevos elementos a un array",
+                "Filtrar los elementos de un array",
+                "Verificar si todos los elementos de un array cumplen con una condición",
+                "Crear un nuevo array aplicando una función a cada elemento"
+            ],
+            "en": [
+                "To add new elements to an array",
+                "To filter elements in an array",
+                "To check if all elements of an array meet a condition",
+                "To create a new array by applying a function to each element"
+            ]
+        },
+        "id": 85,
+        "correctAnswer": 3
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'String.prototype.split()' en JavaScript?",
+            "en": "What is the purpose of the 'String.prototype.split()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Combinar dos strings en uno",
+                "Dividir un string en un array de substrings basado en un delimitador",
+                "Reemplazar los caracteres en un string con otros caracteres",
+                "Convertir un string a minúsculas"
+            ],
+            "en": [
+                "To combine two strings into one",
+                "To split a string into an array of substrings based on a delimiter",
+                "To replace characters in a string with other characters",
+                "To convert a string to lowercase"
+            ]
+        },
+        "id": 86,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'String.prototype.indexOf()' en JavaScript?",
+            "en": "What is the purpose of the 'String.prototype.indexOf()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si un string contiene otro string",
+                "Recuperar el índice de la primera ocurrencia de un substring dentro de un string",
+                "Reemplazar los caracteres en un string con otros caracteres",
+                "Convertir un string a mayúsculas"
+            ],
+            "en": [
+                "To check if a string contains another string",
+                "To retrieve the index of the first occurrence of a substring in a string",
+                "To replace characters in a string with other characters",
+                "To convert a string to uppercase"
+            ]
+        },
+        "id": 87,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el proósito del método 'Array.prototype.reduceRight()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.reduceRight()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Crear un nuevo array aplicando una función a cada elemento",
+                "Combinar todos los elementos de un array en un solo valor",
+                "Revertir el orden de los elementos de un array",
+                "Verificar si todos los elementos de un array cumplen con una condición"
+            ],
+            "en": [
+                "To create a new array by applying a function to each element",
+                "To combine all elements of an array into a single value",
+                "To reverse the order of elements in an array",
+                "To check if all elements of an array meet a condition"
+            ]
+        },
+        "id": 88,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del objeto 'Number' en JavaScript?",
+            "en": "What is the purpose of the 'Number' object in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Realizar cálculos matemáticos",
+                "Manipular el Document Object Model (DOM)",
+                "Manejar operaciones asincrónicas y promesas",
+                "Almacenar datos que persisten entre sesiones del navegador"
+            ],
+            "en": [
+                "To perform mathematical calculations",
+                "To manipulate the Document Object Model (DOM)",
+                "To handle asynchronous operations and promises",
+                "To store data that persists across sessions"
+            ]
+        },
+        "id": 89,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.join()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.join()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Añadir nuevos elementos a un array",
+                "Concatenar todos los elementos de un array en un string",
+                "Filtrar los elementos en un array",
+                "Verificar si todos los elementos de un array cumplen con una condición"
+            ],
+            "en": [
+                "To add new elements to an array",
+                "To concatenate all elements of an array into a string",
+                "To filter elements in an array",
+                "To check if all elements of an array meet a condition"
+            ]
+        },
+        "id": 90,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'String.prototype.substring()' en JavaScript?",
+            "en": "What is the purpose of the 'String.prototype.substring()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si un string contiene otro string",
+                "Recuperar un substring a partir de un string",
+                "Reemplazar los caracteres en un string con otros caracteres",
+                "Convertir un string a mayúsculas"
+            ],
+            "en": [
+                "To check if a string contains another string",
+                "To retrieve a substring from a string",
+                "To replace characters in a string with other characters",
+                "To convert a string to uppercase"
+            ]
+        },
+        "id": 91,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.reverse()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.reverse()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Añadir nuevos elementos a un array",
+                "Ordenar los elementos de un array",
+                "Revertir el orden de los elementos de un array",
+                "Verificar si todos los elementos de un array cumplen con una condición"
+            ],
+            "en": [
+                "To add new elements to an array",
+                "To sort the elements of an array",
+                "To reverse the order of elements in an array",
+                "To check if all elements of an array meet a condition"
+            ]
+        },
+        "id": 92,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'String.prototype.charAt()' en JavaScript?",
+            "en": "What is the purpose of the 'String.prototype.charAt()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Añadir caracteres a un string",
+                "Recuperar un caracter de un string en un índice específico",
+                "Eliminar caracteres de un string",
+                "Convertir un string a mayúsculas"
+            ],
+            "en": [
+                "To add characters to a string",
+                "To retrieve a character from a string at a specific index",
+                "To remove characters from a string",
+                "To convert a string to uppercase"
+            ]
+        },
+        "id": 93,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.isArray()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.isArray()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si una variable es un array",
+                "Convertir un objeto a un array",
+                "Eliminar el último elemento de un array",
+                "Ordenar los elementos de un array"
+            ],
+            "en": [
+                "To check if a variable is an array",
+                "To convert an object to an array",
+                "To remove the last element from an array",
+                "To sort the elements of an array"
+            ]
+        },
+        "id": 94,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Object.keys()' en JavaScript?",
+            "en": "What is the purpose of the 'Object.keys()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Recuperar un array a partir de los nombres de las propiedades de un objeto",
+                "Recuperar un array a partir de los valores de las propiedades de un objeto",
+                "Recuperar un array a partir de los métodos de un objeto",
+                "Recuperar un array a partir de los pares de clave-valor de un objeto"
+            ],
+            "en": [
+                "To retrieve an array of an object's property names",
+                "To retrieve an array of an object's property values",
+                "To retrieve an array of an object's methods",
+                "To retrieve an array of an object's key-value pairs"
+            ]
+        },
+        "id": 95,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'String.prtotype.replace()' en JavaScript?",
+            "en": "What is the purpose of the 'String.prototype.replace()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Añadir caracteres a un string",
+                "Recuperar un caracter a partir de un string",
+                "Reemplazar los caracteres en un string con otros caracteres",
+                "Convertir un string a mayúsculas"
+            ],
+            "en": [
+                "To add characters to a string",
+                "To retrieve a character from a string",
+                "To replace characters in a string with other characters",
+                "To convert a string to uppercase"
+            ]
+        },
+        "id": 96,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.shift()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.shift()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Añadir nuevos elementos al principio de un array",
+                "Eliminar el primer elemento de un array",
+                "Ordenar los elementos de un array",
+                "Verificar si todos los elementos de un array cumplen con una condición"
+            ],
+            "en": [
+                "To add new elements to the beginning of an array",
+                "To remove the first element from an array",
+                "To sort the elements of an array",
+                "To check if all elements of an array meet a condition"
+            ]
+        },
+        "id": 97,
+        "correctAnswer": 1
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'String.prototype.toLowerCase()' en JavaScript?",
+            "en": "What is the purpose of the 'String.prototype.toLowerCase()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si un string contiene otro string",
+                "Recuperar un substring a partir de un string",
+                "Convertir un string a minúsculas",
+                "Convertir un string a mayúsculas"
+            ],
+            "en": [
+                "To check if a string contains another string",
+                "To retrieve a substring from a string",
+                "To convert a string to lowercase",
+                "To convert a string to uppercase"
+            ]
+        },
+        "id": 98,
+        "correctAnswer": 2
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'Array.prototype.unshift()' en JavaScript?",
+            "en": "What is the purpose of the 'Array.prototype.unshift()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Añadir nuevos elementos al principio de un array",
+                "Eliminar el primer elemento de un array",
+                "Ordenar los elementos de un array",
+                "Verificar si todos los elementos de un array cumplen con una condición"
+            ],
+            "en": [
+                "To add new elements to the beginning of an array",
+                "To remove the first element from an array",
+                "To sort the elements of an array",
+                "To check if all elements of an array meet a condition"
+            ]
+        },
+        "id": 99,
+        "correctAnswer": 0
+    },
+    {
+        "question": {
+            "es": "¿Cuál es el propósito del método 'String.prototype.toUpperCase()' en JavaScript?",
+            "en": "What is the purpose of the 'String.prototype.toUpperCase()' method in JavaScript?"
+        },
+        "answers": {
+            "es": [
+                "Verificar si un string contiene otro string",
+                "Recuperar un substring a partir de un string",
+                "Convertir un string a minúsculas",
+                "Convertir un string a mayúsculas"
+            ],
+            "en": [
+                "To check if a string contains another string",
+                "To retrieve a substring from a string",
+                "To convert a string to lowercase",
+                "To convert a string to uppercase"
+            ]
+        },
+        "id": 100,
+        "correctAnswer": 3
+    }
 ]

@@ -5,13 +5,12 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { TbChevronLeft, TbChevronRight } from 'react-icons/tb'
 
 const Game = () => {
-	const [ questions, currentQuestion, nextQuestion, prevQuestion, reset ] = useQuestionsStore(state => [
-		state.questions,
-		state.currentQuestion,
-		state.nextQuestion,
-		state.prevQuestion,
-		state.reset
-	])
+	const questions = useQuestionsStore(state => state.questions)
+	const currentQuestion = useQuestionsStore(state => state.currentQuestion)
+	const language = useQuestionsStore(state => state.language)
+	const nextQuestion = useQuestionsStore(state => state.nextQuestion)
+	const prevQuestion = useQuestionsStore(state => state.prevQuestion)
+	const reset = useQuestionsStore(state => state.reset)
 	const questionInfo = questions[currentQuestion]
 
 	const handleNextQuestion = () => {
@@ -53,13 +52,13 @@ const Game = () => {
 					exit={{ opacity: 0 }}
 					whileHover={{ scale: 1.1 }}
 					whileTap={{ scale: 0.9 }}>
-						Next
+						{language == 'es' ? 'Siguiente' : 'Next'}
 					</motion.button>
 				}
 			</AnimatePresence>
 			<div className={styles.reset}
 			onClick={handleReset}>
-				Reset
+				{language == 'es' ? 'Reiniciar' : 'Reset'}
 			</div>
 		</motion.div>
 	)

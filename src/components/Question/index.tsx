@@ -15,6 +15,7 @@ const getBgColor = (info: QuestionType, index: number) => {
 }
 
 const Question = ({ info }: { info: QuestionType }) => {
+	const language = useQuestionsStore(state => state.language)
 	const selectAnswer = useQuestionsStore(state => state.selectAnswer)
 	
 	const handleClick = (answerIndex: number) => () => {
@@ -24,10 +25,10 @@ const Question = ({ info }: { info: QuestionType }) => {
 	return (
 		<div className={styles.question}>
 			<div className={styles.title}>
-				{info.question}
+				{info.question[language]}
 			</div>
 			<div className={`${styles.answers} ${info.userSelectedAnswer !== undefined ? styles.disabled : ''}`}>
-				{info.answers.map((answer, index) => {
+				{info.answers[language].map((answer, index) => {
 					return (
 						<motion.div key={index} className={styles.answer}
 						onClick={handleClick(index)} style={{ backgroundColor: getBgColor(info, index) }}>
